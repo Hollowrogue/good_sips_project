@@ -1,0 +1,24 @@
+# Created by Afiya Vora 6/28/22
+
+Tested:
+- All navigating icons/buttons works fine
+- BarTab can add over hundred drinks to the list 
+- MySips adds only reviewed drinks 
+- MasterList is consistent
+
+Errors:
+- BarTabList.swift
+- DrinkListViewModel.swift
+- Webservice.swift
+
+Bugs:
+- "Add new" button on BarTab adds an empty string to the list
+- "Search" button on "Search Cocktails" displays all the drinks with the letter "A" when typed "A" instead of displaying drinks starting with an "A"
+- BarTab adds a same drink twice. The user can only add the drink once and review it once
+- The information is not saved after refreshing the page
+
+TO-DO:
+- Add filter button on MySips page
+- Add function for share to social media button
+- Add list of ingredients on the Search Ingredients page
+- Address whitefaces on Roulette page

@@ -1,0 +1,42 @@
+﻿1. Title or name of research/training
+
+API Building or Local API usage
+
+
+   2. Why are you doing it?
+        The current API that we are using for GoodSips is decent but it can definitely be improved upon significantly in terms of efficiency and broader database. 
+
+   3. What you expect to learn/do.   Be specific by identifying what code/modules will be affected by the research/training.
+Improving the current code would be the best solution, but if we decide that we have to rewrite it then that might take time but would definitely be worth it in the end. 
+The module affected is Webservice.swift
+Specifically the class Webservice code will be affected
+
+   4. What do you expect to do with it, including any code you expect to write.  Be specific.  For example, "Writing the UI" is not sufficient.   "Writing the Login class" is.
+With a better API that is locally built upon, it is more flexible in terms of updating and editing, it is more efficient to pull information from a local API rather than relying on a 3rd party database, there are less risk factors including downtime/maintenance for the 3rd party database/API. We expect to get faster response time with less errors when using our drink database. In the drink industry information in regards to ingredients and measurements are key and precision matters in the bartending field, ensuring that we follow the procedures to build an API, the pros listed above will help regarding our expectations. 
+
+The tutorial on how to build the API including code is detailed in the following article 
+
+https://medium.com/chaya-thilakumara/how-to-create-a-local-api-server-rest-api-for-testing-945bbb2d31b7
+To begin we would have to use a json server, which we can download by running a command and it is a node package. 
+
+The server will be up in http://localhost:3000 which has data available from the db.json file. 
+
+The resources generated will be post, comments and profile but we can access and modify them using an HTTP method. 
+
+“Drinks”: [
+                {
+                “Id”: 1,
+                “name” : “Old Fashioned”
+                },
+                {
+                “Id” : 2,
+                “name” : “Mojito”
+                }
+]
+
+This is an example of how the drink database will be. Obviously it will take time because there are hundreds and hundreds of drinks. 
+
+   5. What task(s) in Jira represent the work you will do that was/is dependent on the research/training.
+        Vul-31 Drink Profile: Expand Info
+        Vul-32 Fix Ingredient Search Bug
+        These are the tasks that are/were dependent on the API research since they use the drink database from the current API to receive their information for the user.

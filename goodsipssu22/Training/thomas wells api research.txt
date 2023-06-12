@@ -1,0 +1,5 @@
+1. API Research - Creating a local data API
+2. We wanted to update the API for the GoodSips app to improve the drink database
+3. Webservice.swift is the module affected, specifically the Webservice class
+4. Re-writing the Webservice class to be a local API that is easier to update
+5. VUL-37: Creation of local data API is the associated Jira task

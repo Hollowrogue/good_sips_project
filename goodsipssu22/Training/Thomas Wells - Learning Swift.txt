@@ -1,0 +1,6 @@
+Reviewed key concepts associated with the Swift programming language from Codecademy (https://www.codecademy.com/learn/learn-swift):
+1. Created simple "Hello World" program
+2. Variables
+3. Conditional logic - including if, else, else if, and switch statements
+4. Loops, functions, dictionaries, and classes
+

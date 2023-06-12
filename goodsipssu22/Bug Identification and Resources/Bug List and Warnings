@@ -1,0 +1,58 @@
+# Created by Katelin Vincent 6/28/22
+
+Bugs and Warnings:
+- Drink.swift : clean
+
+- Ingredient.swift : clean
+
+- DrinkProfile.swift : clean
+
+- IngredientProfile.swift : clean
+
+- DrinkUIView.swift : clean
+
+- DrinkListViewModel.swift : FAIL
+	- Line 148 : drink.strGlass ?? ""
+	- “Left side of nil coalescing operator '??' has non-optional type 'String', so the right side is never used”
+	- https://stackoverflow.com/questions/49994795/left-side-of-nil-coalescing-operator-has-non-optional-type-string-so-the  
+
+- IngredientListViewModel.swift : clean
+
+- Webservice.swift : FAIL
+	- Line 25 : guard let url = components.url else {
+	- Warning: Value 'url' was defined but never used; consider replacing with boolean test
+Replace 'let url = components.url' with 'components.url != nil'
+	- https://stackoverflow.com/questions/39060215/warning-value-was-defined-but-never-used-consider-replacing-with-a-boolean-tes 
+
+- MasterList.swift : clean
+
+- RatingView.swift : clean
+
+- IngredientSearch.swift : clean
+
+- MySips.swift : clean
+
+- MainView.swift : clean
+
+- Featured.swift : clean
+
+- Roulette.swift : clean
+
+- ContentView.swift : clean
+
+- BarTabList.swift : FAIL
+	- Lin 54 : async { 
+	- Warning: 'async(priority:operation:)' is deprecated: `async` was replaced by `Task.init` and will be removed shortly.
+	- https://stackoverflow.com/questions/67925525/async-call-in-a-function-that-does-not-support-concurrency-swift-ios-xcode-asy 
+
+- DataStore.swift : clean
+
+Incomplete of features:
+- Review variable needs to be an array to associate with each my sips drink 
+- Entering a space in search term causes app to crash 
+ 	- Fatal error: Unexpectedly found nil while unwrapping an Optional value
+- Doe not crash for ingredients 
+- Photos not showing up 
+- Featured is showing random list each time 
+- Ingredient List is not comprehensive enough 
+- Profiles need cleaning up 

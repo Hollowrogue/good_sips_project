@@ -1,0 +1,22 @@
+﻿Basics of swift:
+
+
+* Declare constants by let keyword
+* Declare variables by var keyword
+* No main() method to serve as the program’s starting point when the operating system loads the application
+* No semicolon required at the end of statements
+* Type annotation by placing a colon after the constant or variable name, followed by a space, followed by the name of the type to use
+* The print(_:separator:terminator:) function prints one or more values to an appropriate output
+* UInt is the same size as the x-bit machine
+* Set nil to a valueless variable
+* For-in loop makes it easy to iterate over arrays, dictionaries, etc
+* Functions: prefixed with the func keyword. Indicate the function’s return type with the return arrow -> (a hyphen followed by a right angle bracket), which is followed by the name of the type to return.
+* Place the function return type at the right-hand side of the function declaration, rather than the left
+* Declare structures with struct keyword
+* Declare classes with class keyword
+* Use dot syntax to access properties of an instance
+* An instance method has implicit access to all other instance methods and properties of that type
+* errors are represented by values of types that conform to the Error protocol
+* Use defer statement even when no error handling is required
+* Uses camelCase for naming conventions
+* Can use Cocoa framework
